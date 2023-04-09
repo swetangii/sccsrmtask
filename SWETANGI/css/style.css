@@ -1,0 +1,226 @@
+/*CSS RESET*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    height:5000px;
+}
+#main
+{
+    width: 100%;
+    height: 51px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 2;
+}
+
+/* LEFT SIDE  */
+
+.leftside
+{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    width:50%;
+}
+.smallGrlImg
+{
+    height: 52%;
+    margin: 0px 0px 0px 19px;
+}
+
+.leftside h4 
+{
+    margin: 0px 0px 0px 7px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* RIGHT SIDE  */
+
+
+.rightside
+{
+    /* background-color: rgb(41, 235, 11); */
+    display: flex;
+    width:50%;
+}
+
+.navbar ul 
+{
+    display: flex;
+}
+.navbar ul li
+{
+    margin: 17px 2px 0px 54px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.lunchBoxBtn
+{
+    font-size: 14px;
+    margin: 4px 14px 0px 25px;
+    padding: 9px 21px 9px 21px;
+    border-radius: 23px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+/* HUMAN KIND IMAGE */
+
+.img1
+{
+    /* background-color: gold; */
+    margin: 163px 0px 0px 110px;
+    width: 86%;
+}
+.img2
+{
+    margin: -247px 0px 26px 97px;
+    width: 86%;
+}
+
+
+/* SMALL PARAGRAPH SECTION HAVING 2 BUTTONS  */
+
+/* #para
+{
+    background-color: yellow;
+    
+} */
+
+.upperPara
+{
+    margin: 12px 12px 12px 31%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btns
+{
+    text-align: center;
+}
+
+.btn1 , .btn2
+{
+    font-size: 17px;
+    padding: 22px;
+    border-radius: 58px;
+    border: none;
+    font-weight: bold;
+    margin:0px 5px 0px 0px;
+}
+
+.bgcol1
+{
+    background: none;
+    border:3px solid black;
+
+}
+.bgcol2
+{
+   background-color: black;
+   color: white;
+}
+
+.lowerPara 
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+}
+
+/* CARD SECTION (GIRL PLAYING GUITAR) */
+
+
+#card
+{
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 73%;
+    height: 551px;
+    border: 2px solid black;
+    margin: 12px 12px 0px 147px;
+    margin: 78px auto 0px auto;
+    border-radius: 32px;
+    border: 7px solid black;
+}
+
+.imgleft
+{
+    background-color: beige;
+    border-radius: 26px;
+    width: 179%;
+}
+
+.imgleft img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 26px;
+    border-radius: 27px 0px 0px 26px;
+}
+
+/* RIGHT SIDE PARAGRAPH  */
+
+
+.paraRight
+{
+    margin-top:10%;
+}
+
+.paraRight h3 
+{
+    font-size: 39px;
+    margin-bottom: 54px;
+}
+
+.paraRight p
+{
+    font-size: 24px;
+}
+
+.paraRight button 
+{
+    margin: 33px 0px 0px 0px;
+    width: 128px;
+    height: 59px;
+    border-radius: 45px;
+    border: none;
+    font-size: 19px;
+    background-color: #e1ff00;
+}
+
+
+/* RUNNING KID IMAGE  */
+
+
+#runningKidimg
+{
+    /* background-color: #e1ff00; */
+    width: 55%;
+    margin-left: 367px;
+    margin-top: 106px;
+}
+
+#runningKidimg img 
+{
+    width:100%;
+}
